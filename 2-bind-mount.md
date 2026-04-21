@@ -25,6 +25,7 @@ en la página aparece 403 Forbidden
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA
 
 ### ¿Qué pasa con el archivo index.html del contenedor?
+No hay este archivo
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA
 
 ### Ir a https://html5up.net/ y descargar un template gratuito, descomprirlo dentro de tu computador en la carpeta html
