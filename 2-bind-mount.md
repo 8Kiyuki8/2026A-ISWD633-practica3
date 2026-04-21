@@ -20,7 +20,8 @@ docker run -d --name <nombre contenedor> --mount type=bind,source=<ruta carpeta 
 # COMPLETAR CON EL COMANDO
 
 ### ¿Qué sucede al ingresar al servidor de nginx?
-en la página aparece 403 Forbidden
+en la página aparece error 403 Forbidden
+<img width="1247" height="163" alt="image" src="https://github.com/user-attachments/assets/d032b4f2-9c75-428d-affc-aeecde266df8" />
 
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA
 
@@ -30,6 +31,9 @@ No hay este archivo
 
 ### Ir a https://html5up.net/ y descargar un template gratuito, descomprirlo dentro de tu computador en la carpeta html
 ### ¿Qué sucede al ingresar al servidor de nginx?
+Ahora aparece el template q descargué
+<img width="1366" height="686" alt="image" src="https://github.com/user-attachments/assets/60a9f6d6-9da8-4aa4-bc50-8542bda9d4ec" />
+
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA
 
 ### Eliminar el contenedor
