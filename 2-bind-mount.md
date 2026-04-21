@@ -37,9 +37,12 @@ Ahora aparece el template q descargué
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA
 
 ### Eliminar el contenedor
+<img width="509" height="74" alt="image" src="https://github.com/user-attachments/assets/ff26e335-2b70-455c-bc47-9fe4a1e144aa" />
+
 # COMPLETAR CON EL COMANDO
 
 ### ¿Qué sucede al crear nuevamente un contenedor montado al directorio definidos anteriormente?
+Se crea normalmente, en localhost aparece lo mismo
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA
 
 
