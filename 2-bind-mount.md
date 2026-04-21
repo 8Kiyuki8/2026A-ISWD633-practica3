@@ -16,11 +16,12 @@ docker run -d --name <nombre contenedor> --mount type=bind,source=<ruta carpeta 
 
 ### Crear un contenedor con la imagen nginx:alpine, mapear todos por puertos, para la ruta carpeta host colocar el directorio en donde se encuentra la carpeta html en tu computador y para la ruta carpeta contenedor: /usr/share/nginx/html (esta ruta se obtiene al revisar la documentación de la imagen)
 ![Volúmenes](volumen-host.PNG)
-# COMPLETAR CON EL COMANDO
 <img width="1012" height="73" alt="image" src="https://github.com/user-attachments/assets/3906ab87-507a-43e2-aab3-8137bae6e526" />
-
+# COMPLETAR CON EL COMANDO
 
 ### ¿Qué sucede al ingresar al servidor de nginx?
+en la página aparece 403 Forbidden
+
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA
 
 ### ¿Qué pasa con el archivo index.html del contenedor?
