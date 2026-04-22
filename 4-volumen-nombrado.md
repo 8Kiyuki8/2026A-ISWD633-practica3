@@ -40,6 +40,7 @@ docker run -d --name <nombre contenedor> --mount type=volume,src=<nombre >,dst=<
 
 
 ### Crear la red net-drupal de tipo bridge
+docker network create --driver bridge net-drupal
 # COMPLETAR CON EL COMANDO
 
 ### Crear un servidor postgres vinculado a la red net-drupal, completar la ruta del contenedor
