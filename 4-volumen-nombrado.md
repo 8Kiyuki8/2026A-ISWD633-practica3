@@ -57,6 +57,11 @@ docker run -d --name client-postgres --publish published=9500,target=80 -e PGADM
 ### Usar el cliente postgres para conectarse al servidor postgres, para la conexión usar el nombre del servidor en lugar de la dirección IP.
 
 ### Crear los volúmenes necesarios para drupal, esto se puede encontrar en la documentación
+docker run -d --name server-postgres -e POSTGRES_DB=db_drupal -e POSTGRES_PASSWORD=12345 -e POSTGRES_USER=user_drupal -v vol-postgres:/var/lib/postgresql/data --network net-drupal postgres
+
+docker run -d --name client-postgres -p 9500:80 -e PGADMIN_DEFAULT_PASSWORD=54321 -e PGADMIN_DEFAULT_EMAIL=admin@ejemplo.com --network net-drupal dpage/pgadmin4
+
+docker volume create vol-drupal-data
 ### COMPLETAR CON LOS COMANDOS
 
 ### Crear el contenedor server-drupal vinculado a la red, usar la imagen drupal, y vincularlo a los volúmenes nombrados
