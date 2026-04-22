@@ -30,11 +30,16 @@ docker run -d --name mysql-db --network net-wp -e MYSQL_ROOT_PASSWORD=root_pass 
 # COMPLETAR CON EL COMANDO
 
 ### ¿Qué observa en la carpeta db que se encontraba inicialmente vacía?
+La base de datos: Una carpeta llamada wordpress_db.
+
+Archivos de sistema: Carpetas como mysql y performance_schema.
+
+Archivos de datos: Archivos grandes como ibdata1 e ib_logfile
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA
 
 ### Para que persista la información es necesario conocer en dónde wordpress almacena la información.
 # COMPLETAR LA SIGUIENTE ORACIÓN. REVISAR LA DOCUMENTACIÓN DE LA IMAGEN EN https://hub.docker.com/
-En el esquema del ejercicio la carpeta del contenedor (b) es (COMPLETAR CON LA RUTA)
+En el esquema del ejercicio la carpeta del contenedor (b) es /var/www/html
 
 Ruta carpeta host: .../ejercicio3/www
 
