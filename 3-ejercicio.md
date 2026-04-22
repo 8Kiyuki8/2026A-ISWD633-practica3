@@ -24,6 +24,9 @@ Archivos de datos: Archivos grandes como ibdata1 e ib_logfile
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA
 
 ### Crear un contenedor con la imagen mysql:8  en la red net-wp, configurar las variables de entorno: MYSQL_ROOT_PASSWORD, MYSQL_DATABASE, MYSQL_USER y MYSQL_PASSWORD
+docker run -d --name mysql-db --network net-wp -e MYSQL_ROOT_PASSWORD=root_pass -e MYSQL_DATABASE=wordpress_db -e MYSQL_USER=anna_user -e MYSQL_PASSWORD=user_pass -v "%cd%/db:/var/lib/mysql" mysql:8
+
+
 # COMPLETAR CON EL COMANDO
 
 ### ¿Qué observa en la carpeta db que se encontraba inicialmente vacía?
