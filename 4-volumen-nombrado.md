@@ -8,6 +8,7 @@ docker volume create <nombre volumen>
 ```
 
 ### Crear el volumen nombrado: vol-postgres
+docker volume create vol-postgres
 # COMPLETAR CON EL COMANDO
 
 ## MOUNTPOINT
