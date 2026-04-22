@@ -50,6 +50,7 @@ docker run -d --name wordpress-site --network net-wp -p 9500:80 -e WORDPRESS_DB_
 ### Personalizar la apariencia de wordpress y agregar una entrada
 
 ### Eliminar el contenedor y crearlo nuevamente, ¿qué ha sucedido?
+No sucedió nada todo esta igual a como configuré
 
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA 
 
