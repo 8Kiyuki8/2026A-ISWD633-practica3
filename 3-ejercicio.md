@@ -3,7 +3,9 @@
 
 ### Crear red net-wp
 docker network create net-wp
+
 docker run -d --name mysql-db --network net-wp -e MYSQL_ROOT_PASSWORD=password123 -e MYSQL_DATABASE=wordpress_db -v "%cd%/db:/var/lib/mysql" mysql:5.7
+
 docker run -d --name wordpress-site --network net-wp -p 9500:80 -e WORDPRESS_DB_HOST=mysql-db -e WORDPRESS_DB_USER=root -e WORDPRESS_DB_PASSWORD=password123 -e WORDPRESS_DB_NAME=wordpress_db -v "%cd%/www:/var/www/html" wordpress:latest
 # COMPLETAR CON EL COMANDO COMANDO
 
