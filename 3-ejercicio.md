@@ -44,6 +44,7 @@ En el esquema del ejercicio la carpeta del contenedor (b) es /var/www/html
 Ruta carpeta host: .../ejercicio3/www
 
 ### Crear un contenedor con la imagen wordpress en la red net-wp, configurar las variables de entorno WORDPRESS_DB_HOST, WORDPRESS_DB_USER, WORDPRESS_DB_PASSWORD y WORDPRESS_DB_NAME (los valores de estas variables corresponden a los del contenedor creado previamente)
+docker run -d --name wordpress-site --network net-wp -p 9500:80 -e WORDPRESS_DB_HOST=mysql-db -e WORDPRESS_DB_USER=anna_user -e WORDPRESS_DB_PASSWORD=user_pass -e WORDPRESS_DB_NAME=wordpress_db -v "%cd%/www:/var/www/html" wordpress:latest
 # COMPLETAR CON EL COMANDO
 
 ### Personalizar la apariencia de wordpress y agregar una entrada
