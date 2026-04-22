@@ -11,11 +11,16 @@ docker run -d --name wordpress-site --network net-wp -p 9500:80 -e WORDPRESS_DB_
 
 ### Para que persista la información es necesario conocer en dónde mysql almacena la información.
 # COMPLETAR LA SIGUIENTE ORACIÓN. REVISAR LA DOCUMENTACIÓN DE LA IMAGEN EN https://hub.docker.com/
-En el esquema del ejercicio carpeta del contenedor (a) es (COMPLETAR CON LA RUTA)
+En el esquema del ejercicio carpeta del contenedor (a) es /var/lib/mysql
 
 Ruta carpeta host: .../ejercicio3/db
 
 ### ¿Qué contiene la carpeta db del host?
+La base de datos: Una carpeta llamada wordpress_db. 
+
+Archivos de sistema: Carpetas como mysql y performance_schema. 
+
+Archivos de datos: Archivos grandes como ibdata1 e ib_logfile
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA
 
 ### Crear un contenedor con la imagen mysql:8  en la red net-wp, configurar las variables de entorno: MYSQL_ROOT_PASSWORD, MYSQL_DATABASE, MYSQL_USER y MYSQL_PASSWORD
