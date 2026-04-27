@@ -84,6 +84,8 @@ docker run -d --name server-drupal --publish published=9700,target=80 -v drupal-
 # COMPLETAR CON UNA CAPTURA DE PANTALLA DEL PASO 4
 
 _La instalación puede tomar varios minutos, mientras espera realice un diagrama de los contenedores que ha creado en este apartado._
+<img width="821" height="217" alt="image" src="https://github.com/user-attachments/assets/ec5603da-b554-4321-a4b7-2cd66627f004" />
+
 
 # COMPLETAR CON EL DIAGRAMA SOLICITADO
 
