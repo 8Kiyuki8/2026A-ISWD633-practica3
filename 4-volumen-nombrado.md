@@ -69,7 +69,6 @@ docker volume create drupal-themes
 
 docker volume create drupal-sites
 
-docker volume create vol-drupal-data
 ### COMPLETAR CON LOS COMANDOS
 
 ### Crear el contenedor server-drupal vinculado a la red, usar la imagen drupal, y vincularlo a los volúmenes nombrados
